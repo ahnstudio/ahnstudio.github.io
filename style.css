@@ -1,4 +1,11 @@
-*{
+* {
+   background-image: url("gambar/white-desk.jpg");
+   background-repeat: no-repeat;
+   background-size:cover
+}
+
+
+{
     margin: 0;
     padding: 0;
     outline: 0;
