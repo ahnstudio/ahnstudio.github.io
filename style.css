@@ -1,11 +1,10 @@
-*body {
-	background-image: url('background1.jpg');
- 	background-repeat: no-repeat;
-  background-size: cover;
+*body{
+    height: 100vh;
+    background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhaMU2yuoTLAlMM18HBgzczJQ-hB0Hb64YmkLncdb8jP5FIG_RVvDmP6Qp8ur5UkDh3JG6FYhvpPNn3G5cEyOj8ngBgOUXTGf8qgOTP1Ca4Ki8zQ63QtuiBvMD0FFR4L-eaWmltbMUaB18SSfBDo8pZANuFcPGcIQPeW491o1CGfRvHNsaeRn6TNKSvrA/s1920/background1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
-
-
-
 
 {
     margin: 0;
