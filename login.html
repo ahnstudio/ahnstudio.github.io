@@ -1,11 +1,31 @@
 <!DOCTYPE HTML>
 <html>
+    
+<h1 style="color: #3A08A8;"><marquee>MPW Mabar Pixel Warfare</marquee></h1>
+    
     <head>
       <title>Halaman|Login</title>
       <link rel="stylesheet" href="style.css">
     </head>
     
-    <body>
+    <body style="background-color: #E5E5B0 ">
+        <marquee>
+<h3 style="color: #786A98;"><strong>Jam di website</strong></h3>
+
+	<div id="clock"></div>
+	
+	<script>
+	  setInterval(() => {
+		let date = new Date()
+		let clock = document.getElementById('clock')
+		clock.innerHTML =
+		  date.getHours()+":"+
+		  date.getMinutes()+":"+
+		  date.getSeconds()
+	  }, 1000);
+	</script>
+	</marquee>
+        
         <div class="container">
             <h1>LOGIN</h1>
         </div>     
