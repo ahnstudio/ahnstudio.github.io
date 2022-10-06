@@ -1,3 +1,4 @@
 # ardhnan.github.io
 
-Load application update and wait a few seconds
+img src=
+https://imgsrcmpw.blogspot.com/2022/10/full-img.html
