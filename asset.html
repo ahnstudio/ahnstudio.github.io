@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Basic Snake HTML Game</title>
+  <meta charset="UTF-8">
+  <style>
+  html, body {
+    height: 100%;
+    margin: 0;
+  }
+
+  body {
+    background: #333333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  canvas {
+    border: 1px solid white;
+  }
+  </style>
+</head>
+<body>
+<img src="ahn.png"  width=250"height="200" style="float: left" loading="lazy" />
+<strong><marquee>
+<h4 style="color: #FFFFFF ;"><strong>Jam di website</strong></h4>
+
+	<div id="clock" style="color: #FFFFFF;"></div>
+	
+	<script>
+	  setInterval(() => {
+		let date = new Date()
+		let clock = document.getElementById('clock')
+		clock.innerHTML =
+		  date.getHours()+":"+
+		  date.getMinutes()+":"+
+		  date.getSeconds()
+	  }, 1000);
+	</script>
+</strong></marquee>	
+
+
+
+
+</body>
+</html>

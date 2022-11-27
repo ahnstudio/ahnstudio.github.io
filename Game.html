@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+  <title>Basic Snake HTML Game</title>
+  <meta charset="UTF-8">
+  <style>
+  html, body {
+    height: 100%;
+    margin: 0;
+  }
+
+  body {
+    background: #6D9100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  canvas {
+    border: 1px solid white;
+  }
+  </style>
+</head>
+<body>
+<img src="ahn.png"  width=250"height="200" style="float: left" loading="lazy" />
+<div>
+<nav>
+<hr>
+<p>
+<a href="index.html">HOME</a> &nbsp;
+<a href="game.html">GAME</a> &nbsp;
+<a href="menu.html">MENU</a> &nbsp;
+</p>
+<hr>
+</nav>
+
+<strong><marquee>
+<h4 style="color: #FFFFFF ;"><strong>Jam di website</strong></h4>
+
+	<div id="clock" style="color: #FFFFFF;"></div>
+	
+	<script>
+	  setInterval(() => {
+		let date = new Date()
+		let clock = document.getElementById('clock')
+		clock.innerHTML =
+		  date.getHours()+":"+
+		  date.getMinutes()+":"+
+		  date.getSeconds()
+	  }, 1000);
+	</script>
+</strong></marquee>	
+
+<a href="asset data\snake\snake.html"><img src="sn 2.PNG"  width=250"height="250" loading="lazy" /></a> &nbsp;
+<a href="asset data\snake.html"><img src="sn 1.PNG"  width=250"height="250" loading="lazy" /></a> &nbsp;
+<a href="asset data\tetris\asset.html"><img src="1.PNG"  width=250"height="250" loading="lazy" /></a> &nbsp;
+
+
+</body>
+</html>

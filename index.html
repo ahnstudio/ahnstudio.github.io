@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>ahn|HOME</title>
+  <meta charset="UTF-8">
+  <style>
+  html, body {
+    height: 100%;
+    margin: 0;
+  }
+
+  body {
+    background: #A3C3FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  canvas {
+    border: 1px solid white;
+  }
+  </style>
+</head>
+<body>
+<div id="header">
+<img src="ahn.png"  width=250"height="200" style="float: left" loading="lazy" />
+<strong><marquee>
+
+	<div id="clock" style="color: #bc5a45;"></div>
+	
+	<script>
+	  setInterval(() => {
+		let date = new Date()
+		let clock = document.getElementById('clock')
+		clock.innerHTML =
+		  date.getHours()+":"+
+		  date.getMinutes()+":"+
+		  date.getSeconds()
+	  }, 1000);
+	</script>
+</strong></marquee>	
+
+<div>
+<nav>
+<hr>
+<p>
+<a href="index.html">HOME</a> &nbsp;
+<a href="game.html">GAME</a> &nbsp;
+<a href="menu.html">MENU</a> &nbsp;
+</p>
+<hr>
+</nav>
+
+<h3>Selamat Datang di website kami</h3>
+
+<p>Di sini menyediakan game dan lain lain</p>
+
+
+
+
+
+</body>
+</html>
